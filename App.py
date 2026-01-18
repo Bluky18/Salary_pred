@@ -34,6 +34,8 @@ df = pd.DataFrame({
 
 if st.button("Predict Salary"):
     for col in encoder:
+        st.write("Columns in df:", df.columns.tolist())
+        st.write("Trying to encode column:", col)
         df[col] = encoder[col].transform(df[col])
 
     prediction = model.predict(df)
