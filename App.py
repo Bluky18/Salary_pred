@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1rADkEaH7O96Za-TyNQh-M4Dsm_QyDeu-
 """
 
-!pip install streamlit
 
 import numpy as np
 import joblib
